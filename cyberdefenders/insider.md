@@ -90,7 +90,7 @@ En `/root` encontré un archivo de imagen con nombre aleatorio, **`irZLAohL.jpeg
 
 ![Q8 (1 de 2)](images/q8_1.png)
 
-![Q8 (2 de 2)](images/q8_2.png)
+![Q8 (2 de 2)](images/q8_2.jpeg)
 
 ### Q9. ¿A quién provocaba Karen en un script de Bash en `Documents`?
 
@@ -107,7 +107,7 @@ Abrí `/var/log/auth.log` y filtré las entradas de las 11:26. A las 11:26:22, e
 
 La línea indica que **`root` cambió a la cuenta `postgres`**, la del servicio de base de datos PostgreSQL. El enunciado del lab habla de un `su` a root, pero el log muestra que la cuenta involucrada en esos cambios es **`postgres`**, que es la respuesta que identifiqué.
 
-![Q10 (1 de 2)](images/q10_1.png)
+![Q10 (1 de 2)](images/q10.png)
 
 ![Q10 (2 de 2)](images/q10_2.png)
 
