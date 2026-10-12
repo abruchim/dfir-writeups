@@ -49,7 +49,9 @@ Navegué a `/var/log/apache2/` y encontré `access.log`. En FTK Imager hice clic
 
 Este valor es el MD5 conocido de un archivo **vacío** (0 bytes), y el SHA1 del mismo CSV también corresponde a un archivo vacío. Eso confirma con evidencia que el `access.log` no tenía contenido.
 
-![Q2_1](images/q2_1.png) [Q2_2](images/q2_2.png)
+![Q2 (1 de 2)](images/q2_1.png)
+
+![Q2 (2 de 2)](images/q2_2.png)
 
 ### Q3. ¿Cómo se llama el archivo descargado, una herramienta de volcado de credenciales?
 
@@ -86,7 +88,9 @@ Fui a `/var/log/apache2/` y abrí `access.log`: estaba **vacío**, y el hash de 
 
 En `/root` encontré un archivo de imagen con nombre aleatorio, **`irZLAohL.jpeg`**, modificado el 22/3/2019. Al abrirlo en el visor de FTK Imager muestra la pantalla de otro equipo con Windows: una consola de administrador en la carpeta `Temp` de un usuario (Bob), ejecutando un programa que simula tráfico de red malicioso. Esto indica que desde la máquina de Karen se accedió a otro equipo y se capturó su pantalla como prueba.
 
-![Q8](images/q8_1.png) (images/q8_2.png)
+![Q8 (1 de 2)](images/q8_1.png)
+
+![Q8 (2 de 2)](images/q8_2.png)
 
 ### Q9. ¿A quién provocaba Karen en un script de Bash en `Documents`?
 
@@ -103,7 +107,9 @@ Abrí `/var/log/auth.log` y filtré las entradas de las 11:26. A las 11:26:22, e
 
 La línea indica que **`root` cambió a la cuenta `postgres`**, la del servicio de base de datos PostgreSQL. El enunciado del lab habla de un `su` a root, pero el log muestra que la cuenta involucrada en esos cambios es **`postgres`**, que es la respuesta que identifiqué.
 
-![Q10](images/q10.png) (images/q10_2.png)
+![Q10 (1 de 2)](images/q10_1.png)
+
+![Q10 (2 de 2)](images/q10_2.png)
 
 ### Q11. Según el historial de Bash, ¿cuál es el directorio de trabajo actual?
 
