@@ -49,7 +49,7 @@ Navegué a `/var/log/apache2/` y encontré `access.log`. En FTK Imager hice clic
 
 Este valor es el MD5 conocido de un archivo **vacío** (0 bytes), y el SHA1 del mismo CSV también corresponde a un archivo vacío. Eso confirma con evidencia que el `access.log` no tenía contenido.
 
-![Q2](images/q2_1.png) (images/q2_2.png)
+![Q2_1](images/q2_1.png) [Q2_2](images/q2_2.png)
 
 ### Q3. ¿Cómo se llama el archivo descargado, una herramienta de volcado de credenciales?
 
